@@ -8,7 +8,17 @@ Please request a write access to this repo via issue tickets, if you want to con
 # JSON Format
 Example:
 ```
-/steemhunt/criteria.txt -> Explain the criteria how you validate users.
-/steemhunt/whitelist.json -> [ "user-a", "user-b" ]
-/steemhunt/blacklist.json -> [ "user-c" ]
+/steemhunt/criteria.md -> Explain the criteria how you validate users.
+/steemhunt/whitelist.json ->
+  [
+    "user-a",
+    "user-b"
+  ]
+/steemhunt/blacklist.json ->
+  [
+    "user-c"
+  ]
+
+* Please seperate each username with a new line so we can check git change logs easily.
+* Indentation: 2 spaces.
 ```
