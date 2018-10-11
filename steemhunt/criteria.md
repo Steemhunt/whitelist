@@ -4,7 +4,9 @@
 User with level score at least 1.0
 
 User score decided considering following formula:
-`Score = Credibility Score *  Activity Score * Curation Score * Hunter Score`
+```
+Score = Credibility Score *  Activity Score * Curation Score * Hunter Score
+```
 
 1. Credibility Score
 How trustworthy the account is. It combines:
