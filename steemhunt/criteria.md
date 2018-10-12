@@ -29,6 +29,6 @@ This score represents how many valuable hunts the user has posted. It’s calcul
 ## Blacklist
 We blacklist users for 30 days if the user attempts any of the following actions:
 
-1. Operates alternative accounts to disrupt Steemhunt voting pool and its ranking chart
+1. Operates alternative accounts to disrupt Steemhunt voting pool, its ranking chart, and HUNT token airdrops
 2. Creates spam posts or comments
 3. Commits Plagiarism
