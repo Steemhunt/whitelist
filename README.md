@@ -19,6 +19,7 @@ Example:
     "user-c"
   ]
 
-* Please seperate each username with a new line so we can check git change logs easily.
+* Please seperate each username with a new line so we can check the git change logs easily.
 * Indentation: 2 spaces.
+* Sort usernames by alphabetical orders
 ```
