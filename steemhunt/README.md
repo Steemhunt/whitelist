@@ -39,4 +39,4 @@ https://api.steemhunt.com/phone_numbers/exists.json?number=+821012345678&key=API
 -> { "exists": false }
 ```
 
-Please request an API key via [email](steemhunt@gmail.com) if your dApp wants an access.
+Please request an API key via [email](steemhunt@gmail.com) or [Discord](https://discord.gg/uekggj6) if your dApp wants an access.
