@@ -32,3 +32,9 @@ We blacklist users for 30 days if the user attempts any of the following actions
 1. Operates alternative accounts to disrupt Steemhunt voting pool, its ranking chart, and HUNT token airdrops
 2. Creates spam posts or comments
 3. Commits Plagiarism
+
+## Signed up phone numbers
+```
+https://api.steemhunt.com/phone_numbers/exists?number=+821012345678
+-> { "exists": false }
+```
