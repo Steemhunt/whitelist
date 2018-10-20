@@ -39,7 +39,7 @@ https://api.steemhunt.com/phone_numbers/exists.json?number=+821012345678
 
 and share the detail on your dApp's README file.
 
-*Caution*
+#### *Caution*
 `+` sign on the URL parameter is translated as a space chracter, so make sure you normalize it when you query the database
 
 Example:
