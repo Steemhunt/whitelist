@@ -28,16 +28,17 @@ Example:
 
 Most dApps would have its own phone verifications to prevent people from making multiple alt accounts using their discounted account creation interface. However, users can still make multiple alt accounts via multiple dApps as dApps do not share their signed up numbers.
 
-Sharing phone numbers between the services can be dangerous in terms of privacy, but just existence checks won't leak any personal information.
+Sharing phone numbers between the services can be dangerous in terms of privacy, but just existence checks won't leak any personal information binded to the phone number.
 Please implement API interface like following:
 
 Example:
 ```
-https://api.steemhunt.com/phone_numbers/exists.json?number=+821012345678
+https://api.steemhunt.com/phone_numbers/exists.json?number=+821012345678&key=YOUR_API_KEY
 -> { "exists": false }
 ```
 
-and share the detail on your dApp's README file.
+To prevent brute-force attack and public access of potentially sensitive information, it's probably better idea to protect the end point using private API keys and give accesses to authorized dApps.
+
 
 #### *Caution*
 `+` sign on the URL parameter is translated as a space chracter, so make sure you normalize it when you query the database

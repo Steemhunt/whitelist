@@ -35,6 +35,8 @@ We blacklist users for 30 days if the user attempts any of the following actions
 
 ## Signed up phone numbers
 ```
-https://api.steemhunt.com/phone_numbers/exists.json?number=+821012345678
+https://api.steemhunt.com/phone_numbers/exists.json?number=+821012345678&key=API_KEY
 -> { "exists": false }
 ```
+
+Please request an API key via [email](steemhunt@gmail.com) if your dApp wants an access.
