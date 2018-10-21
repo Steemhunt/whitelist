@@ -1,5 +1,5 @@
 # Steem account black / white list
-User black / white list that Steem dApps can share each other.
+User black / white list that Steem dApps can share with each other.
 
 Each app can upload their list freely, so other dApps can use those listings to filter out abusers / spammers more effectively. Please request a write access to this repo via issue tickets if you want to contribute.
 
