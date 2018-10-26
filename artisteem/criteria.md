@@ -1,0 +1,5 @@
+# Artisteem criteria
+
+## Whitelist
+
+## Blacklist
