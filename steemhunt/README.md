@@ -27,7 +27,7 @@ This score represents how many valuable hunts the user has posted. It’s calcul
   b. The amount of penalty points a user has (users receive penalty points each time their hunt post is delisted by our community moderators)
 
 ## Blacklist
-We blacklist users for 30 days if the user attempts any of the following actions:
+We blacklist users if the user attempts any of the following actions:
 
 1. Operates alternative accounts to disrupt Steemhunt voting pool, its ranking chart, and HUNT token airdrops
 2. Creates spam posts or comments
