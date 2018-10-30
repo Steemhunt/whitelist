@@ -40,3 +40,6 @@ https://api.steemhunt.com/phone_numbers/exists.json?number=+821012345678&key=API
 ```
 
 Please request an API key via [email](steemhunt@gmail.com) or [Discord](https://discord.gg/uekggj6) if your dApp wants an access.
+
+## Blacklist IP / Phone Numbers
+IP and Phone Numbers that has sent abusive mass traffic to our sign-up interface.
