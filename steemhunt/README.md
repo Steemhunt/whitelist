@@ -4,22 +4,27 @@
 
 The Steemhunt whitelist includes users whose user score is at least 1.0 or above. The user score is decided by the following formula:
 ```
-Score = Credibility Score *  Activity Score * Curation Score * Hunter Score
+Score = Relative HUNT Power Score (quaratic curve, 0-5) * Relative Contribution Score (linear curve, 0-2)
 ```
+
+### HUNT Power Score
+Relative score based on users' HUNT token balance
+
+### Relative Contribution Score
+Relative score based on users' contribution on Steemhunt
 
 1. Credibility Score
 This score represents the trustworthiness of the account. It’s calculated by combining:
   a. Steem reputation
   b. Steem power
   c. Account age (based on the date you signed up to Steemhunt)
-  d. [Buildawhale blacklist](https://github.com/themarkymark-steem/buildawhaleblacklist) - an external blacklisted user database
+  d. External blacklists
 
 2. Activity Score
 This shows how much the user actively uses Steemhunt.
 
 3. Curation Score
 This reflects how well the user upvotes hunting posts in an adding-value way. It can be increased if the user has upvoted many different users as this will increase their diversity score  Or it can be decreased if a user is considered to be a circle voter (involved in a voting ring).
-
 
 4. Hunter Score
 This score represents how many valuable hunts the user has posted. It’s calculated based on:
