@@ -2,15 +2,9 @@
 
 ## Whitelist
 
-The Steemhunt whitelist includes users whose user score is at least 1.0 or above. The user score is decided by the following formula:
-```
-Score = Relative HUNT Power Score (quaratic curve, 0-5) * Relative Contribution Score (linear curve, 0-2)
-```
+The Steemhunt whitelist includes users whose user score is at least 1.0 or above.
 
-### HUNT Power Score
-Relative score based on users' HUNT token balance
-
-### Relative Contribution Score
+### User Score
 Relative score based on users' contribution on Steemhunt
 
 1. Credibility Score
